@@ -1,0 +1,78 @@
+body {
+    background-color: #D0F0C0;
+    margin-left: 50px;
+    margin-right: 100px;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  h1{
+    color: #00A86B;
+    margin-left: 50px;
+    font-family: Impact;
+    font-size: 50px;
+    text-align: center;
+   }
+   h2{
+    color: white;
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: left;
+   }
+  p{
+    color:black;
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+  }
+  ul{
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+  }
+  ol{
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+  }
+  a{
+    color: #00A86B;
+    font-family: Helvetica, sans-serif;
+  }
+  img{
+    width: 100px;
+    margin-left: 50px;
+    border-radius:50%;   
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+  } 
+  img:hover{
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+  }
+  .green-border{
+    border-width: 5px;
+    border-color: #00A86B;
+    border-style: solid;
+    border-radius: 50%;
+    }
+  .injected-text{
+    text-align: left;
+    background-color: #00A86B;
+    padding: 5px; 
+  }
+  .centered-text{
+    text-align: center
+  }
+footer{
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(202, 25, 40)
+}
+
+
+
