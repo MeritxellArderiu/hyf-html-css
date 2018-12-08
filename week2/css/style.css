@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+
+@media screen and (max-width: 420px) {
+  .main {
+    width:100%;
+    display: flex;
+    flex-direction: left;
+  }
+  .li:first-child{
+      width: 100%;
+      margin: 0;
+  }
+  #grid-flex .grid-item:nth-child(2) {
+      clear: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width:100%;
+    display: flex;
+    flex-direction: left;
+  }
+  .li:first-child{
+      text-align: center;
+      background-color: #ffffff;
+      border: none;
+      font-size: 12px;
+      width: 50%;
+      margin: 2%;
+  }
+  #grid-flex .grid-item:nth-child(2) {
+      width: 50%;
+      margin: 2%;
+  }
+  #grid-flex .grid-item:nth-child(3){
+      clear:left;
+  }
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #3D6A7D;
+  }
+
+head{
+  background-color: #3D6A7D;
+  }
+
+body {
+  background-color: #3D6A7D;
+  /*background-image: url(../images/hightech.jpg) no-repeat center center fixed;
+  background-size: cover;*/
+  margin: 0;
+  padding: 0;
+  }
+
+  section{
+    float: left;
+    clear: right;
+    z-index: 99;  
+}
+
+p {
+  padding: 1rem;
+  border-top: 5px solid #3D6A7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  color: #3D6A7D;
+  text-align: center;
+  background-color: #cecece85;
+}
+
+h1 {
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5rem;
+  color: white;
+  text-align: left;
+}
+
+h2 {
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  color: #FF9900;
+  text-align: left
+}
+
+h3 {
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #3D6A7D;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+#grid-floats {
+  display: grid;
+  clear: left;
+  background-color: #3D6A7D;
+  min-width: 35rem;
+  float: left;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  gap:10px;
+  justify-items: stretch;
+  padding: 2% 2% 4%;
+}
+
+#grid-flex {
+  display: grid;
+  float: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: stretch;
+  padding: 2% 2% 4%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  gap: 10px;
+  background-color: #3D6A7D;
+  overflow: hidden;
+}
+
+.grid-item {
+  padding: 1rem;
+  border-top: 5px solid #FF9900;
+  border-bottom: 5px solid #FF9900;
+  background-color: white;
+  margin: 2.666%;
+}
+
+.grid-item img {
+  display: center;
+  clear: both;
+  max-width: 50%;
+}
+
